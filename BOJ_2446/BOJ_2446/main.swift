@@ -11,7 +11,6 @@ var N = Int(readLine()!)!
 
 for i in 1...2*N-1{
     
-    for j in stride(from: 1, through: 2*(N-i), by: 1){
     for k in stride(from: 1, to: N-abs(N-i), by: 1){
         print(" ",terminator: "")
     }
